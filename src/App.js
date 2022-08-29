@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// function App() {
+//   let random = Math.floor(Math.random() * 2)
+//   if (random) {
+//     return (
+//       <h1>Hello World, my name is Jeremy!</h1>
+//     );
+//   } else {
+//     return (
+//       <h3>Good Bye World, see you tomorrow!</h3>
+//     )
+//   }
+// };
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. Hello my name is Jeremy!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <h1>Hello World! My name is Jeremy!</h1>)
+};
+
 
 export default App;
+
+
